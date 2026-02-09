@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19c05cc6-7b16-43db-bb20-c166bfc2401d" name="更改" comment="decisiontree">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervised_learning/DecisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/supervised_learning/DecisionTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervised_learning/DecisionTree_Gini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervised_learning/RandomForest.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_learning/DecisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/supervised_learning/DecisionTree_C4.5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +39,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.DecisionTree.executor": "Run",
+    "Python.DecisionTree_C4.5.executor": "Debug",
+    "Python.DecisionTree_Gini.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "D:/python/deep_learning/deeplearning",
     "node.js.detected.package.eslint": "true",
@@ -41,7 +53,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="DecisionTree" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="DecisionTree_C4.5" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="machine_learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,7 +68,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/supervised_learning/DecisionTree.py" />
+      <option name="SCRIPT_NAME" value="D:\python\machine_learning\supervised_learning\DecisionTree_C4.5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +100,9 @@
       <workItem from="1768966311541" duration="40000" />
       <workItem from="1768966640134" duration="1342000" />
       <workItem from="1769591048050" duration="8523000" />
-      <workItem from="1770258710866" duration="11287000" />
+      <workItem from="1770258710866" duration="16421000" />
+      <workItem from="1770530864832" duration="2926000" />
+      <workItem from="1770632942991" duration="8474000" />
     </task>
     <task id="LOCAL-00001" summary="decisiontree">
       <option name="closed" value="true" />
@@ -98,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768920024564</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="decisiontree">
+      <option name="closed" value="true" />
+      <created>1770270864404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770270864404</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +132,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/supervised_learning/DecisionTree_C4.5.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -120,6 +149,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/machine_learning$DecisionTree.coverage" NAME="DecisionTree 覆盖结果" MODIFIED="1770270734997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
+    <SUITE FILE_PATH="coverage/machine_learning$DecisionTree.coverage" NAME="DecisionTree 覆盖结果" MODIFIED="1770272602477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
+    <SUITE FILE_PATH="coverage/machine_learning$DecisionTree_C4_5.coverage" NAME="DecisionTree_C4.5 覆盖结果" MODIFIED="1770644691224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
+    <SUITE FILE_PATH="coverage/machine_learning$DecisionTree_Gini.coverage" NAME="DecisionTree_Gini 覆盖结果" MODIFIED="1770645199559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
   </component>
 </project>
