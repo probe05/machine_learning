@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19c05cc6-7b16-43db-bb20-c166bfc2401d" name="更改" comment="decisiontree">
-      <change afterPath="$PROJECT_DIR$/supervised_learning/DecisionTree_Gini.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supervised_learning/RandomForest.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervised_learning/SupportVectorMachine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervised_learning/DecisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/supervised_learning/DecisionTree_C4.5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +37,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.DecisionTree.executor": "Run",
-    "Python.DecisionTree_C4.5.executor": "Debug",
+    "Python.DecisionTree_C4.5.executor": "Run",
     "Python.DecisionTree_Gini.executor": "Run",
+    "Python.SupportVectorMachine.executor": "Run",
+    "Python.p.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "D:/python/deep_learning/deeplearning",
     "node.js.detected.package.eslint": "true",
@@ -48,7 +48,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "PyScientificConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -102,7 +102,9 @@
       <workItem from="1769591048050" duration="8523000" />
       <workItem from="1770258710866" duration="16421000" />
       <workItem from="1770530864832" duration="2926000" />
-      <workItem from="1770632942991" duration="8474000" />
+      <workItem from="1770632942991" duration="8779000" />
+      <workItem from="1770688141810" duration="8538000" />
+      <workItem from="1770869090979" duration="20773000" />
     </task>
     <task id="LOCAL-00001" summary="decisiontree">
       <option name="closed" value="true" />
@@ -120,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770270864404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="decisiontree">
+      <option name="closed" value="true" />
+      <created>1770645545658</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770645545658</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,9 +144,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/supervised_learning/DecisionTree_Gini.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/supervised_learning/DecisionTree_C4.5.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="7" />
+          <line>105</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/supervised_learning/SupportVectorMachine.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/supervised_learning/SupportVectorMachine.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../contest/pythonProject/p.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -150,7 +180,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machine_learning$DecisionTree.coverage" NAME="DecisionTree 覆盖结果" MODIFIED="1770272602477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
-    <SUITE FILE_PATH="coverage/machine_learning$DecisionTree_C4_5.coverage" NAME="DecisionTree_C4.5 覆盖结果" MODIFIED="1770644691224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
-    <SUITE FILE_PATH="coverage/machine_learning$DecisionTree_Gini.coverage" NAME="DecisionTree_Gini 覆盖结果" MODIFIED="1770645199559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
+    <SUITE FILE_PATH="coverage/machine_learning$SupportVectorMachine.coverage" NAME="SupportVectorMachine 覆盖结果" MODIFIED="1770981760191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
+    <SUITE FILE_PATH="coverage/machine_learning$p.coverage" NAME="p 覆盖结果" MODIFIED="1770981227845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../contest/pythonProject" />
+    <SUITE FILE_PATH="coverage/machine_learning$DecisionTree_C4_5.coverage" NAME="DecisionTree_C4.5 覆盖结果" MODIFIED="1770971313387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
+    <SUITE FILE_PATH="coverage/machine_learning$DecisionTree_Gini.coverage" NAME="DecisionTree_Gini 覆盖结果" MODIFIED="1770971275437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
   </component>
 </project>
