@@ -4,6 +4,8 @@ Classify various models into supervised learning and unsupervised learning.
 
 Currently:
     supervised learning includes
-    1.
+    1.Decision Tree C4.5 & Gini
+    2.Support Vector Machine 
+    3.Naive Bayes Classifier
     unsupervise learning includes
     1.

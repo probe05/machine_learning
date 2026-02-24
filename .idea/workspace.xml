@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19c05cc6-7b16-43db-bb20-c166bfc2401d" name="更改" comment="decisiontree">
-      <change afterPath="$PROJECT_DIR$/supervised_learning/SupportVectorMachine.py" afterDir="false" />
+    <list default="true" id="19c05cc6-7b16-43db-bb20-c166bfc2401d" name="更改" comment="svm">
+      <change afterPath="$PROJECT_DIR$/supervised_learning/NaiveBayesClassify.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +39,9 @@
     "Python.DecisionTree.executor": "Run",
     "Python.DecisionTree_C4.5.executor": "Run",
     "Python.DecisionTree_Gini.executor": "Run",
+    "Python.NaiveBayesClassify.executor": "Run",
     "Python.SupportVectorMachine.executor": "Run",
-    "Python.p.executor": "Debug",
+    "Python.p.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "D:/python/deep_learning/deeplearning",
     "node.js.detected.package.eslint": "true",
@@ -104,7 +105,10 @@
       <workItem from="1770530864832" duration="2926000" />
       <workItem from="1770632942991" duration="8779000" />
       <workItem from="1770688141810" duration="8538000" />
-      <workItem from="1770869090979" duration="20773000" />
+      <workItem from="1770869090979" duration="24387000" />
+      <workItem from="1771121419028" duration="1854000" />
+      <workItem from="1771906876660" duration="1970000" />
+      <workItem from="1771911932867" duration="3786000" />
     </task>
     <task id="LOCAL-00001" summary="decisiontree">
       <option name="closed" value="true" />
@@ -130,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770645545658</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="svm">
+      <option name="closed" value="true" />
+      <created>1770982379813</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770982379813</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +150,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="decisiontree" />
-    <option name="LAST_COMMIT_MESSAGE" value="decisiontree" />
+    <MESSAGE value="svm" />
+    <option name="LAST_COMMIT_MESSAGE" value="svm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -154,19 +167,19 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/supervised_learning/SupportVectorMachine.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/supervised_learning/SupportVectorMachine.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../contest/pythonProject/p.py</url>
-          <line>162</line>
+          <line>1</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/supervised_learning/NaiveBayesClassify.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/supervised_learning/NaiveBayesClassify.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -180,8 +193,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machine_learning$DecisionTree.coverage" NAME="DecisionTree 覆盖结果" MODIFIED="1770272602477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
-    <SUITE FILE_PATH="coverage/machine_learning$SupportVectorMachine.coverage" NAME="SupportVectorMachine 覆盖结果" MODIFIED="1770981760191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
-    <SUITE FILE_PATH="coverage/machine_learning$p.coverage" NAME="p 覆盖结果" MODIFIED="1770981227845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../contest/pythonProject" />
+    <SUITE FILE_PATH="coverage/machine_learning$SupportVectorMachine.coverage" NAME="SupportVectorMachine 覆盖结果" MODIFIED="1770982329739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
+    <SUITE FILE_PATH="coverage/machine_learning$p.coverage" NAME="p 覆盖结果" MODIFIED="1771915583486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../contest/pythonProject" />
+    <SUITE FILE_PATH="coverage/machine_learning$NaiveBayesClassify.coverage" NAME="NaiveBayesClassify 覆盖结果" MODIFIED="1771915751349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
     <SUITE FILE_PATH="coverage/machine_learning$DecisionTree_C4_5.coverage" NAME="DecisionTree_C4.5 覆盖结果" MODIFIED="1770971313387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
     <SUITE FILE_PATH="coverage/machine_learning$DecisionTree_Gini.coverage" NAME="DecisionTree_Gini 覆盖结果" MODIFIED="1770971275437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supervised_learning" />
   </component>
