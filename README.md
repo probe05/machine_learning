@@ -8,4 +8,5 @@ Currently:
     2.Support Vector Machine 
     3.Naive Bayes Classifier
     unsupervise learning includes
-    1.
+    1.k-means
+    2.PCA
