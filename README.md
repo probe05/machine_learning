@@ -7,6 +7,7 @@ Currently:
     1.Decision Tree C4.5 & Gini
     2.Support Vector Machine 
     3.Naive Bayes Classifier
+    4.Neural Network
     unsupervise learning includes
     1.k-means
     2.PCA

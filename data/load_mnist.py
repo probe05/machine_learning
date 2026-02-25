@@ -10,7 +10,9 @@ def load_mnist_labels(filename):
        f.read(8)
        labels = np.frombuffer(f.read(), dtype=np.uint8)
    return labels
-x_train = load_mnist_images('./MNIST/train-images-idx3-ubyte.gz')
-y_train = load_mnist_labels('./MNIST/train-labels-idx1-ubyte.gz')
-x_test = load_mnist_images('./MNIST/t10k-images-idx3-ubyte.gz')
-y_test = load_mnist_labels('./MNIST/t10k-labels-idx1-ubyte.gz')
+
+
+x_train = load_mnist_images('../data/MNIST/train-images-idx3-ubyte.gz')
+y_train = load_mnist_labels('../data/MNIST/train-labels-idx1-ubyte.gz')
+x_test = load_mnist_images('../data/MNIST/t10k-images-idx3-ubyte.gz')
+y_test = load_mnist_labels('../data/MNIST/t10k-labels-idx1-ubyte.gz')
